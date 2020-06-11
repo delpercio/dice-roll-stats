@@ -1,8 +1,21 @@
-*{
+* {
     box-sizing: border-box;
-
 }
 
-div:nth-child(odd) {
-    background-color:lightgray;;
+#container {
+    border: 1px solid black;
+    max-width: 400px;
+    
+    
+}
+
+.theBars {
+    
+    background-color: lightgray;
+    margin-bottom: 1PX;
+    border: .5px solid darkgray;
+    height: 40px;
+    border-radius: 0 0 2% 0
+    
+    
 }
